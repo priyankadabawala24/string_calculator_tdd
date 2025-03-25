@@ -4,7 +4,7 @@ String Calculator TDD Kata
 
 Introduction
 
-String Calculator is a simple Ruby class that performs addition on numbers provided as strings, following the rules defined below:
+String Calculator is a simple Ruby lib class that performs addition on numbers provided as strings, following the rules defined below:
     1. Create a simple String calculator with a method signature like this:
 
         int add(string numbers)
