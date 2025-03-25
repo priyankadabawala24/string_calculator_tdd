@@ -24,7 +24,7 @@ RSpec.describe StringCalculator do
 
         it 'supports different delimiters specified at the beginning' do
             expect(StringCalculator.add("//;\n1;2")).to eq(3)
-            # expect(StringCalculator.add("//*\n1*2*6")).to eq(9)
+            expect(StringCalculator.add("//*\n1*2*6")).to eq(9)
         end
     end
 end
